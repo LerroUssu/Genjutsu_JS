@@ -1,11 +1,3 @@
-const getMatch = await fetch("http://google.com/complete/search?client=chrome&q=" + Keyword, {
-      method: 'GET',
-      mode: 'no-cors',
-      headers: {
-      'Content-Type': 'text/plain',
-      },
-    })
-    
 import { initToggleButton } from './utils/toggle-button.js'
 import { makeFlower } from './makeFlowers.js'
 
