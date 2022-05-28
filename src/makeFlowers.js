@@ -32,4 +32,4 @@ export const makeFlower = (sourceSelector, {
 
     // why? dunno...
     document.body.scrollTop = 0
-}
+} 
