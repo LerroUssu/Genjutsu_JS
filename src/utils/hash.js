@@ -1,4 +1,3 @@
-
 const tokens = new Set(window.location.hash.substr(1).split(',').filter(v => v))
 
 export default {
