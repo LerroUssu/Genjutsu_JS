@@ -1,0 +1,41 @@
+
+.toggle-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 4px;
+    --my-color: rgb(0, 0, 0); 
+    color: var(--my-color);
+    transition: all .3s;
+}
+
+html.dark .toggle-button {
+    --my-color: rgb(255, 255, 255);
+    transition: all .3s;
+}
+
+.toggle-button .toggle {
+    width: 128px;
+    height: 32px;
+    margin-right: 8px;
+    background-color: rgba(121, 0, 0, 0.466);
+    border: solid 2px var(--my-color);
+    border-radius: 16px;
+    transition: all .3s;
+}
+
+html.dark .toggle {
+    background-color: rgba(112, 0, 116, 0.452);
+    transition: all .3s;
+}
+.toggle-button .toggle > div {
+    margin: 2px;
+    width: 24px;
+    height: 24px;
+    background-color: var(--my-color);
+    border-radius: 50%;
+    transition: all .3s;
+}
+.toggle-button.active .toggle > div {
+    transform: translateX(96px);
+}

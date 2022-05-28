@@ -1,0 +1,118 @@
+.butterfly {
+    transition-duration: 1s;
+    width: 100px;
+    height: 100px;
+    background-color: #f1e9ef00;
+    mask-image: url(../assets/butterfly.svg);
+    -webkit-mask-image: url(../assets/butterfly.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.middot {
+    transition-duration: 0.5s;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    mask-image: url(../assets/rond.svg);
+    -webkit-mask-image: url(../assets/rond.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    mask-image: url(../assets/rond.svg);
+    -webkit-mask-image: url(../assets/rond.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.circle2 {
+    transition-duration: 0.5s;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: radial-gradient(rgb(230 6 6 / 0%) 58%, rgb(165 10 10) 63%, hsl(0deg 94% 26% / 82%) 66%, rgb(202 3 3) 71%);
+    /*background-image: radial-gradient(rgb(230 6 6 / 0%) 55%, rgb(165 10 10) 62%, hsl(0deg 94% 31% / 82%) 66%, rgb(202 3 3) 71%);*/
+    mask-image: url(../assets/rond.svg);
+    -webkit-mask-image: url(../assets/rond.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.circleRed {
+    transition-duration: 0.5s;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(139, 0, 0);
+    /*background-image: radial-gradient(rgb(154 11 11) 10%, rgb(202 3 3) 40%, rgb(154 11 11) 90%);*/
+    background-image: radial-gradient(hsl(0deg 87% 22%) 3%, rgb(202 3 3) 40%, hsl(0deg 87% 26%) 73%);
+    mask-image: url(../assets/rond.svg);
+    -webkit-mask-image: url(../assets/rond.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+html.dark .butterfly {
+    transition-delay: 0.7s;
+    transition-duration: 0.6s;
+    background-color: #f1e9ef;
+}
+
+html.dark .middot {
+    transition-duration: 1.5s;
+    background-color: #311a46;
+    mask-image: url(../assets/sakura.svg);
+    -webkit-mask-image: url(../assets/sakura.svg);
+}
+
+html.dark .circle {
+    transition-duration: 0.5s;
+    background-color: #311a46;
+    /*mask-image: url(../assets/sakura.svg);
+    -webkit-mask-image: url(../assets/sakura.svg);*/
+}
+
+html.dark .circle2 {
+    transition-duration: 0.5s;
+    background-color: #96bbe8;
+    background-image: none;
+}
+
+
+html.dark .circleRed {
+    transition-duration: 0.5s;
+    background-color: #b058c6;
+    background-image: none;
+}
+
+.shar {
+    transition-duration: 1.5s;
+    width: 102px;
+    height: 93px;
+    background-color: #000000;
+    /*background-image: url(../assets/dots.png);*/
+    background-size: 10%;
+    background-position: center ;
+    mask-image: url(../assets/shar.svg);
+    -webkit-mask-image: url(../assets/shar.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+html.dark .shar {
+    width: 102px;
+    height: 93px;
+    background-color: #311a46;
+    /*background-image: url(../assets/dots.png);*/
+    background-size: 10%;
+    background-position: center ;
+    mask-image: url(../assets/leaf-1.svg);
+    -webkit-mask-image: url(../assets/leaf-1.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    /*transform: rotate(45deg);*/
+}
